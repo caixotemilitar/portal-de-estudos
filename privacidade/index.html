@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:,">
+<title>Privacidade</title>
+<style>
+:root{--bg:#E4F2F6;--surface:#FFFFFF;--ink:#16304A;--muted:#4E6577;--line:#C9DDE5;--sea:#1C6F82;color-scheme:light}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0E1C29;--surface:#172A3B;--ink:#EAF4F8;--muted:#A9BFCC;--line:#2C4559;--sea:#4CC0D4;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E1C29;--surface:#172A3B;--ink:#EAF4F8;--muted:#A9BFCC;--line:#2C4559;--sea:#4CC0D4;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg);color:var(--ink);margin:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.5}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.6rem;margin:0 0 4px}
+h2{font-size:1.15rem;margin:0 0 8px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0}
+p,li{overflow-wrap:anywhere}
+ul{padding-left:1.2em;margin:8px 0}
+li{margin:4px 0}
+a{color:var(--sea)}
+.peq{color:var(--muted);font-size:.92rem}
+nav{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:20px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacidade</h1>
+  <p class="peq">Portal de estudos da turma. Atualizado em 20/11/2026.</p>
+
+  <section>
+    <h2>Quem cuida do portal</h2>
+    <p>O portal é mantido de graça por um responsável da turma. Ele não é um serviço da escola.</p>
+    <p>Contato para dúvidas e pedidos sobre os seus dados: <span id="contato">O contato aparece aqui quando o responsável pelo portal configurar.</span></p>
+  </section>
+
+  <section>
+    <h2>O que guardamos</h2>
+    <ul>
+      <li><b>Do adulto:</b> e-mail e senha. A senha fica cifrada no serviço de login. Ninguém consegue lê-la.</li>
+      <li><b>De cada criança:</b> apelido ou primeiro nome, bichinho, série e turno, e a senha de figuras (também cifrada).</li>
+      <li><b>Do estudo:</b> progresso nas missões, pontos, troféus, tempo de estudo e as respostas das atividades (qual pergunta, se acertou e quanto tempo levou).</li>
+      <li><b>Vídeos de revisão:</b> quais perguntas entram em cada vídeo pedido.</li>
+    </ul>
+    <p><b>Nunca guardamos:</b> nome completo, foto, documentos, endereço, laudos, desenhos da criança (ficam só no aparelho), nem senha da escola ou do Google.</p>
+  </section>
+
+  <section>
+    <h2>Para que usamos</h2>
+    <ul>
+      <li>Mostrar a você, no painel, como seu filho está indo.</li>
+      <li>Guardar o progresso, para a criança continuar de onde parou em outro aparelho.</li>
+      <li>Montar treinos e revisões.</li>
+    </ul>
+    <p>Não há propaganda. Os dados não são vendidos nem usados para outra coisa.</p>
+  </section>
+
+  <section>
+    <h2>Quem vê</h2>
+    <ul>
+      <li><b>Você</b>, no painel, com o seu e-mail e a sua senha.</li>
+      <li><b>Seu filho</b>, pelo link dele, só as coisas dele.</li>
+      <li><b>Outras famílias não veem nada dos seus filhos.</b> Elas veem só o que é da turma: as missões, os comunicados gerais e os vídeos de revisão preparados por quem cuida do portal. Esses vídeos são feitos a partir das perguntas do portal, sem dados de criança.</li>
+      <li><b>Quem cuida do portal</b> tem acesso técnico ao banco de dados. Ele só usa esse acesso para manter o portal funcionando.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Onde os dados ficam</h2>
+    <ul>
+      <li><b>Supabase:</b> banco de dados e login, com servidor em São Paulo.</li>
+      <li><b>GitHub Pages:</b> guarda só as páginas do site, sem dados das famílias.</li>
+      <li><b>Brevo:</b> envia os e-mails de confirmação da conta e de senha nova. Recebe só o seu e-mail, para isso.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Por quanto tempo</h2>
+    <p>Enquanto a conta existir.</p>
+    <ul>
+      <li><b>Remover um filho</b> apaga do servidor os dados dele: progresso, pontos, respostas, link e vídeos de revisão.</li>
+      <li><b>Excluir a conta</b> apaga na hora, do servidor, tudo da família: conta, filhos, progresso, respostas, links, roteiros e pedidos de vídeo. Apaga também os registros técnicos, como os códigos cifrados de links antigos. Não dá para desfazer.</li>
+      <li>Os arquivos dos vídeos de revisão saem do armazenamento na hora ou na próxima limpeza automática.</li>
+      <li>Se a exclusão do e-mail falhar, o painel avisa. É só tentar de novo.</li>
+      <li>O progresso guardado no aparelho da criança e os desenhos ficam nesse aparelho até ele ser limpo. Depois da exclusão, o portal nesse aparelho avisa que o link não vale mais, mas não apaga sozinho o que está guardado. Para limpar, apague os dados do site nas configurações do navegador desse aparelho.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Seus direitos (LGPD)</h2>
+    <p>A Lei Geral de Proteção de Dados (Lei 13.709/2018) garante que você pode ver, corrigir, levar e apagar os seus dados. No painel, em <b>Configurar</b>:</p>
+    <ul>
+      <li><b>Exportar dados:</b> baixa um arquivo com tudo o que o servidor guarda da família: a conta (e-mail e data do aceite), os filhos, o progresso, os pontos, todas as respostas, os reinícios, os vídeos de revisão pedidos e os roteiros.</li>
+      <li><b>Filhos:</b> troca as figuras ou remove um filho.</li>
+      <li><b>Excluir minha conta:</b> apaga a conta e todos os dados.</li>
+    </ul>
+    <p>Para qualquer outro pedido, use o contato acima.</p>
+  </section>
+
+  <section>
+    <h2>No aparelho</h2>
+    <p>O portal não usa cookies de propaganda nem rastreadores. Ele guarda no aparelho só o necessário: a entrada, o progresso e os desenhos. Isso fica no aparelho até ele ser limpo (veja "Por quanto tempo").</p>
+  </section>
+
+  <nav><a href="../como-funciona/">Como funciona</a><a href="../painel/">Painel do responsável</a></nav>
+</main>
+</body>
+</html>
